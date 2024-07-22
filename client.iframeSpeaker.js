@@ -1,4 +1,4 @@
-    let iframeSpeaker = function (__frame_data__, __frame_id__) {
+    const iframeSpeaker = function (__frame_data__, __frame_id__) {
 		let frame_data = new URL(location.href).searchParams.get(__frame_data__);
 		let frame_id   = new URL(location.href).searchParams.get(__frame_id__);
 		if(frame_data !== null){
